@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+	<title> Se FullStack</title>
+	<link rel="stylesheet" href="miEstilo.css">
+</head>
+
+<body>
+
+<!--menu de navegacion del sitio-->
+<ol class="navbar">
+	<li><a href="https://www.w3.org/Style/Examples/011/firstcss.es.html#HTML">
+		Introduccion a HTML y CSS</a>
+	<li><a href="Prueba32People.html">MidLevel JS - 32People</a>
+	<li><a href="https://raspberrypi.org"><img 
+	src="rpi.png" width="150" height="100"></a>
+</ol> 
+
+<!-- Contenido principal -->
+<h1>Convertirse en fullStack con mi Raspberry Pi</h1>
+<p>Buscando informacion sobre como convertirme en un desarrollador fullStack
+eh encontrado que uno de los primeros paso es adentrarse en <em>HTML y CSS</em>
+.Por lo que eh creado esta pagina, la cual ire incorporando los link ocupados
+para convertirme en el desarrollador que quiero ser
+</p>
+
+<h2>Geany</h2>
+<p>Se hace uso del editor de texto Geady para la escritura,
+debido a que viene ya instalado en el sistema operativo que 
+trae la ultima versión de raspbian</p>
+
+<h2>Instalacion de Node.JS en raspbian </h2>
+<p>Introducir los siguiente comando en el terminal:<br>
+<textarea style="height: 76px !important; width: 564px !important;">
+
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+
+sudo apt-get install nodejs</textarea><br>
+REFERENCIA: <a href=
+"https://thisdavej.com/beginners-guide-to-installing-node-js-on-a-raspberry-pi/">
+THISDAVEJ.COM</a></p>
+
+
+<adress>Creada el 26 de septiembre del 2019<br><br>
+por José Ríos Sánchez<br> ing.jose.rioss@gmail.com
+ <br> +569 9686 3449</adress>
+
+<h6 id="comentarios">comentarios<br> <INPUT TYPE="text">
+<button id="boton"> Enviar
+<script>
+var boton = document.getElementById("boton");
+
+function enviado(){
+	alert("enviado");
+	}
+
+boton.onclick = enviado;
+boton.addEventListener('mouseover',function(){
+	console.log("raton por aqui");})
+
+</script><button>
+</h6>
+
+</body>
+</html>
